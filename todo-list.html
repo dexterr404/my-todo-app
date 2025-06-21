@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="notes.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Daily Do</title>
+
+</head>
+<body>
+    <div class="todo-flex">
+         <p>Todo List</p>
+         <div class="input-data-flex">
+            <input placeholder='Write your task' type="text" class="js-input-todo input-todo" onkeydown="handleKeyDown(event)">
+            <button class='js-add-todo add-todo-btn'><i class="fa fa-plus" aria-hidden="true" style="color:white; font-size: 20px;"></i></button>
+         </div>
+        
+        <div class="todo-section">
+            <ul class="js-todo-list todo-list">
+            </ul>
+            
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
